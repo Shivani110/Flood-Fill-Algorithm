@@ -32,7 +32,7 @@ b = 4
 New_C = 4
 Flood_filling(S, a, b, New_C)
 
-print("Updated screen after call to floodFill:")
+print("Matrix is updated after adding New color :")
 for x in range(u):
     for y in range(v):
         print(S[x][y], end=' ')
